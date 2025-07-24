@@ -22,6 +22,15 @@
 
 /* Shared style  */
 
+@keyframes spining  {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .section-title {
     font-size: 3.125rem;
     font-weight: 700;
@@ -157,7 +166,14 @@ main {
     color: white;
     font-weight: 600;
     padding: 19px 0;
-    border: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in ;
+}
+.cart-button:hover {
+    background-color: transparent;
+    color: #E95A08;
+    border: 2px solid #E95A08;
 }
 
 /* plant-lover section start  */
@@ -172,6 +188,7 @@ main {
     position: relative;
     left: 350px;
     top: 160px;
+    animation: spining 7s linear 0.5s infinite ;
 }
 
 .badge img {
@@ -331,6 +348,9 @@ main {
     width: 80%;
 
 }
+.email-field:focus {
+    outline: none;
+}
 
 ::placeholder {
     color: rgba(0, 0, 0, 0.5);
@@ -344,6 +364,7 @@ main {
     background-color: #E95A08;
     color: white;
     min-width: 10%;
+    cursor: pointer;
 
 }
 
