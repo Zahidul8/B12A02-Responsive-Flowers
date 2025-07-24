@@ -7,17 +7,17 @@
 }
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .noto-serif {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* Shared style  */
@@ -28,15 +28,19 @@
     font-family: "Noto Serif", serif;
     text-align: center;
 }
+
 .primary-color {
     color: #E95A08;
 }
+
 .dark-1 {
     color: #252432;
 }
+
 .dark-2 {
     color: #8987A1;
 }
+
 .dark-3 {
     color: rgba(0, 0, 0, 0.5);
 }
@@ -45,6 +49,7 @@
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.5);
 }
+
 .text-center {
     text-align: center;
 }
@@ -71,12 +76,15 @@
     align-items: center;
     gap: 48px;
 }
+
 .navbar ul li {
     list-style: none;
 }
+
 .navbar ul a {
     text-decoration: none;
 }
+
 /* banner section start  */
 
 .banner {
@@ -84,18 +92,22 @@
     align-items: end;
     margin-bottom: 120px;
 }
+
 .banner-title {
     font-size: 65px;
     font-weight: 700;
-     font-family: "Noto Serif", serif;
+    font-family: "Noto Serif", serif;
 
 }
+
 .banner-content {
     width: 100%;
 }
+
 .banner-image {
     width: 100%;
 }
+
 .banner-image img {
     width: 100%;
 }
@@ -106,6 +118,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* our plant section start  */
 
 .plants-desc {
@@ -131,11 +144,13 @@ main {
     font-weight: 500;
     margin-top: 30px;
 }
+
 .plant-price {
     font-size: 22px;
     font-weight: 700;
     margin: 20px 0 30px;
 }
+
 .cart-button {
     width: 100%;
     background-color: #E95A08;
@@ -150,6 +165,7 @@ main {
 .plant-lovers {
     margin-top: -110px;
 }
+
 .badge {
     width: 286px;
     height: 286px;
@@ -169,13 +185,16 @@ main {
     align-items: center;
 
 }
+
 .plant-title {
     text-align: left;
 }
+
 .plant-lover-content ul {
     margin-left: 25px;
     padding-right: 30px;
 }
+
 .plant-description {
     margin-top: 20px;
 }
@@ -184,9 +203,11 @@ main {
     flex: 1;
 
 }
+
 .plant-lover-image img {
     width: 100%;
 }
+
 .plant-lover-content {
     flex: 1;
 }
@@ -195,12 +216,14 @@ main {
 
 .latest-deal {
     margin-top: 130px;
+    margin-bottom: 120px;
 }
 
 .latest-description {
-      margin-top: 16px;
+    margin-top: 16px;
     padding: 0 100px;
 }
+
 .deal-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -209,38 +232,42 @@ main {
     column-gap: 28px;
     margin-top: 120px;
 }
+
 .deal-items1 {
-background-image:linear-gradient(rgba(0, 0, 0, 0.4)),url('../assets/deal-bloom.png');
-background-position: center;
-background-repeat: no-repeat;
-background-size:cover;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url('../assets/deal-bloom.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .deal-items2 {
-grid-column: span 2;
-grid-row: span 2;
-background-image:linear-gradient(rgba(0, 0, 0, 0.4)), url('../assets/deal-zabo.png');
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    grid-column: 2/ span 2;
+    grid-row: 1/ span 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url('../assets/deal-zabo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .deal-items3 {
-background-image: linear-gradient(rgba(0, 0, 0, 0.4)),url('../assets/deal-ana.png');
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url('../assets/deal-ana.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .items {
     border-radius: 22px;
 }
@@ -252,107 +279,227 @@ align-items: center;
     font-family: "Noto Serif", serif;
 
 }
+
 .deal-items2 .deal-title {
-    font-size:2.5rem ;
+    font-size: 2.5rem;
 }
+
 .deal-items2 .shop-now {
     font-size: 1.75rem;
 }
+
 .shop-now {
     color: white;
     font-weight: bold;
     margin-top: 19px;
 }
 
+/* footer section start  */
+
+/* join section start  */
+.join-section {
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 199px 0 193px;
+    background-position: center;
+
+}
+
+/* .join-content {
+    max-width: 830px;
+    margin: 0 auto;
+} */
+
+.join-title {
+    color: white;
+}
+
+.input-field {
+    display: flex;
+    max-width: 830px;
+    margin: 0 auto;
+    margin-top: 23px;
+
+}
+
+.email-field {
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    width: 80%;
+
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.subscribe-btn {
+    padding: 15px 54px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    min-width: 10%;
+
+}
+
+/* footer content section start  */
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 3fr;
+    column-gap: 110px;
+} 
+.footer-description {
+    margin-top: 16px;
+}
+.contents-2 ul li {
+    list-style: none;
+    margin-bottom: 32px;
+}
+.contents-2 ul a  {
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+}
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
 
 @media screen and (max-width:640px) {
     .hide {
         display: none;
     }
+
     .navbar {
         padding: 0 16px;
         margin-bottom: 28px;
     }
+
     .navbar ul {
         gap: 10px;
     }
+
     .navbar img {
         width: 63px;
     }
+
     .banner {
         flex-direction: column-reverse;
         gap: 28px;
         margin-bottom: 65px;
     }
+
     .banner-content {
         padding: 0 16px;
     }
+
     .banner-title {
         font-size: 1.5rem;
         padding-right: 80px;
     }
+
     .section-title {
-          font-size: 1.5rem;
+        font-size: 1.5rem;
     }
+
     .section-description {
         font-size: 14px;
     }
+
     main {
         padding: 0 16px;
     }
-    .plants-desc, .latest-description {
+
+    .plants-desc,
+    .latest-description {
         padding: 0;
     }
+
     .plants-container {
 
         grid-template-columns: repeat(2, 1fr);
         margin-top: 28px;
     }
-    .plant-name,.plant-price {
+
+    .plant-name,
+    .plant-price {
         font-size: 1rem;
     }
+
     .plant-price {
         margin: 10px 0 30px;
     }
+
     .plant-lovers {
         margin-top: 40px;
     }
+
     .badge {
         display: none;
     }
-    .plan-lovers-container{
+
+    .plan-lovers-container {
         flex-direction: column;
         gap: 18px;
     }
+
     .latest-deal {
-    margin-top: 40px;
-}
-.deal-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 206px);
-    margin-top: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .deal-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 206px);
+        margin-top: 50px;
+
+    }
+
+    .items {
+        border-radius: 14px;
+    }
+
+    .deal-title {
+        font-size: 1.25rem;
+    }
+
+    .shop-now {
+        font-size: 1rem;
+    }
+
+    .deal-items2 .deal-title {
+        font-size: 1.25rem;
+    }
+
+    .deal-items2 .shop-now {
+        font-size: 1rem;
+    }
+
+    .deal-items2 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .join-section {
+        padding: 110px 36px 64px;
+    }
+    .footer-container {
+        grid-template-columns: 1fr;
+        padding: 0 16px;
+    }
+    .footer-description {
+        font-size: 16px;
+    }
 
 }
-.items {
-    border-radius: 14px ;
-}
-.deal-title {
-    font-size: 1.25rem;
-}
-.shop-now {
-    font-size: 1rem;
-}
-.deal-items2 .deal-title {
-    font-size: 1.25rem;
-}
-.deal-items2 .shop-now {
-    font-size: 1rem;
-}
-
-.deal-items2 {
-    grid-column: auto;
-    grid-row: auto;
-}
-
-}
-
