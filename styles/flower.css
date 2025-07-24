@@ -108,6 +108,9 @@
     font-family: "Noto Serif", serif;
 
 }
+.banner-description {
+    margin-top: 13px;
+}
 
 .banner-content {
     width: 100%;
@@ -375,8 +378,8 @@ main {
     margin-top: 50px;
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr 3fr;
-    column-gap: 110px;
+    grid-template-columns: 3fr 1fr 1.5fr 3fr;
+    column-gap: 100px;
 } 
 .footer-description {
     margin-top: 16px;
@@ -514,6 +517,9 @@ main {
 
     .join-section {
         padding: 110px 36px 64px;
+    }
+    .subscribe-btn {
+        padding: 15px 30px 15px 20px ;
     }
     .footer-container {
         grid-template-columns: 1fr;
