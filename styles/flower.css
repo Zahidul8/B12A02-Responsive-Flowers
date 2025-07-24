@@ -145,6 +145,50 @@ main {
     border: none;
 }
 
+/* plant-lover section start  */
+
+.badge {
+    width: 286px;
+    height: 286px;
+    position: relative;
+    left: 350px;
+    top: 160px;
+}
+
+.badge img {
+    width: 100%;
+    height: 100%;
+}
+
+.plan-lovers-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+
+}
+.plant-title {
+    text-align: left;
+}
+.plant-lover-content ul {
+    margin-left: 25px;
+    padding-right: 30px;
+}
+.plant-description {
+    margin-top: 20px;
+}
+
+.plant-lover-image {
+    flex: 1;
+
+}
+.plant-lover-image img {
+    width: 100%;
+}
+.plant-lover-content {
+    flex: 1;
+}
+
+
 @media screen and (max-width:640px) {
     .hide {
         display: none;
@@ -193,6 +237,16 @@ main {
     }
     .plant-price {
         margin: 10px 0 30px;
+    }
+    .plant-lovers {
+        margin-top: 40px;
+    }
+    .badge {
+        display: none;
+    }
+    .plan-lovers-container{
+        flex-direction: column;
+        gap: 18px;
     }
 
 }
